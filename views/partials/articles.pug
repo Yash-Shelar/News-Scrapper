@@ -1,0 +1,8 @@
+each article in articles
+    div.card.border-primary.mb-3.my-3.d-flex.flex-row(style="max-width:800px", onclick="window.location=" + "'" + article.link + "'" + ";")
+        if article.image
+            img(src=article.image, alt="News Image", class="ms-3 mt-3", width=224, height=120)
+        div.card-body
+            h4.card-title= article.title
+            h6.card-text.mb-1= article.source + " " + article.time
+            p.card-text= article.description

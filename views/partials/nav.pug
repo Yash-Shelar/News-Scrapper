@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">News</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Top Headlines</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/sports">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/covid">Covid</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/buisness">Buisness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/technology">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/entertainment">Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/science">Science</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/health">Health</a>
+        </li>
+      </ul>
+      <form class="d-flex" method="POST" action="/news/topic">
+        <input class="form-control me-sm-2" name="searchQuery" type="text" placeholder="Search any topic">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
